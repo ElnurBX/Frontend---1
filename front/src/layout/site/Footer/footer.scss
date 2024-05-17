@@ -1,0 +1,41 @@
+.footersite{
+    padding: 130px;
+    background: #27272b;
+    p{
+        color:  rgba(255, 255, 255, 0.5);
+    }
+    h2{
+        color: #fff;
+    }
+    .social{
+        gap: 10px;
+
+        i{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:50px;
+            width: 50px;
+            background: rgba(255, 255, 255, 0.5);
+            color: #fff;
+            border-radius: 50%;
+
+        }
+    }
+    ul{
+        list-style: none;
+        text-align-last: left;
+        li{
+            font-size: 20px;
+            color: rgba(255, 255, 255, 0.5);
+            span{
+                color: #fff;
+            }
+        }
+    }
+    input{
+        padding: 10px;
+        background: transparent;
+        border: rgba(255, 255, 255, 0.5 ) solid 1px;
+    }
+}

@@ -1,0 +1,38 @@
+.Sortedcards{
+    button{
+        border: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 24px;
+        color: #726e6e;
+        background: #fff;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    &__card{
+        transition: all 0.5s;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: flex;
+
+        justify-content: space-between;
+        padding: 20px 10px;
+        &:hover{
+            background: #f0cb28;
+        }
+        img{
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+        }
+        a{
+            text-decoration: none;
+            color: #726e6e;
+        }
+    }
+    .makerez{
+        border: #f0cb28 2px solid !important;
+        &:hover{
+            background: #f0cb28;
+        }
+    }
+}
